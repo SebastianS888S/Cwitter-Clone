@@ -30,7 +30,7 @@ const TweetList = () => {
   };
 
   return (
-    <div className="tweet-list-container"> {/* Adăugarea clasei aici */}
+    <div className="tweet-list-container container-tweet"> 
       <h2>New Tweets</h2>
       <ul>
         {tweets.map((tweet) => (

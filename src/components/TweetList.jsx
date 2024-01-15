@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { firestore } from '../firebase';
 import { collection, onSnapshot, query, orderBy } from 'firebase/firestore';
-import './TweetForm.css'; // Importul fișierului CSS
+import './TweetForm.css'; 
 
 const TweetList = () => {
   const [tweets, setTweets] = useState([]);

@@ -31,7 +31,7 @@ const TweetList = () => {
 
   return (
     <div className="tweet-list-container container-tweet"> 
-      <h2>New Tweets</h2>
+      <h2 className='new-twweet'>New Tweets</h2>
       <ul>
         {tweets.map((tweet) => (
           <li key={tweet.id}>

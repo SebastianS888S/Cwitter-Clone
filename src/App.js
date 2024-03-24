@@ -25,11 +25,13 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className='big-container'>
       {user ? (
         <>
+          <div className='welcome-container'>
           <h1>Welcome, {user.displayName}!</h1>
           <button onClick={handleLogout}>Logout</button>
+          </div>
           <TweetForm user={user} />
           <div>
             <TweetList />
